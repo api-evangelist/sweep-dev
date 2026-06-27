@@ -59,7 +59,7 @@ common:
     url: https://sweep.dev/pricing
   - type: Blog
     url: https://blog.sweep.dev
-  - type: Changelog
+  - type: ChangeLog
     url: https://docs.sweep.dev/changelog
   - type: JetBrainsMarketplace
     url: https://plugins.jetbrains.com/plugin/24701-sweep-ai
