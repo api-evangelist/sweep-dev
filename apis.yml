@@ -51,6 +51,10 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/sweep-dev-trust-center.yml
+  - type: DomainSecurity
+    url: security/sweep-dev-domain-security.yml
   - type: Website
     url: https://sweep.dev
   - type: Documentation
