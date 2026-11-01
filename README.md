@@ -1,4 +1,4 @@
-# sweep-dev
+# Sweep
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sweep — AI coding assistant for JetBrains (formerly an AI junior developer for GitHub issues)
+Sweep is a San Francisco-based, Y Combinator-backed company (originally launched as "Sweep — AI-powered junior developer") that has pivoted from being a GitHub App which turned issues into pull requests into an AI coding assistant delivered primarily as a JetBrains IDE plugin, with autocomplete-only support for VS Code and Zed. The current Sweep product pairs a proprietary "Tab model" next-edit autocomplete with an in-IDE Agent for chat, inline editing, AI commit messages, and AI code review across IntelliJ IDEA, PyCharm, WebStorm, GoLand, PhpStorm, Rider, Android Studio, RustRover, RubyMine, CLion, and Aqua. The plugin indexes the local codebase for context, supports Remote MCP Servers with OAuth, web search and fetch tools, and ships under a commercial credit-based pricing model (Free Trial, Basic $10/mo, Pro $20/mo, Ultra $60/mo) with enterprise SOC 2 and zero-data-retention options via contact sales. Sweep has no public developer REST API, no SDK, and no documented webhooks; the company's primary distribution surfaces are the JetBrains Marketplace, the VS Code Marketplace, and the Zed extension registry, and its open-source footprint on GitHub has narrowed to research forks (SWE-bench, SGLang), tokenizer/diff utilities (bpe-qwen, difflib-rs), and the now-legacy sweepai/sweep repository that documented the original GitHub PR agent. Sweep is profiled here as an AI developer-experience vendor rather than as an API provider.
+
+**Areas:** AI Coding Assistant · AI Developer Tools · AI Agents · Code Autocomplete · Next Edit Suggestions · JetBrains Plugin · IntelliJ Platform · VS Code Extension · Zed Editor · Code Review · AI Commit Messages · Inline Editing
+
+## Sweep on APIs.io
+
+Everything profiled for Sweep is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sweep-dev/](https://apis.io/providers/sweep-dev/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sweep Dev Domain Security](https://apis.io/security/sweep-dev/sweep-dev-domain-security/)
+- [Sweep Dev Trust Center](https://apis.io/security/sweep-dev/sweep-dev-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sweep.dev)
+- [Documentation](https://docs.sweep.dev)
+- [Pricing](https://sweep.dev/pricing)
+- [Changelog](https://docs.sweep.dev/changelog)
+- [Blog](https://blog.sweep.dev)
+
+## API Evangelist rating
+
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sweep-dev/](https://apis.io/providers/sweep-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sweep: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sweep-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
